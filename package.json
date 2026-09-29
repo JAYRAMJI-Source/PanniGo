@@ -1,0 +1,9 @@
+{
+  "name":"paanigo-v7",
+  "version":"7.0.0",
+  "private":true,
+  "description":"PaaniGo production-ready water delivery app with Supabase Postgres and optional Razorpay payments",
+  "scripts":{"start":"node server.js"},
+  "engines":{"node":">=20"},
+  "dependencies":{"@supabase/supabase-js":"^2.57.4","dotenv":"^17.2.2","express":"^5.1.0","helmet":"^8.1.0","express-rate-limit":"^8.1.0","cookie-session":"^2.1.1","razorpay":"^2.9.6"}
+}
